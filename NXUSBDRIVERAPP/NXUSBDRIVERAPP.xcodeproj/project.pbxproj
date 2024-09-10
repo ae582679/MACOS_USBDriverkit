@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5673D0BE2C8FF970009D057C /* NXUSBDRIVERAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673D0BD2C8FF970009D057C /* NXUSBDRIVERAPPApp.swift */; };
+		5673D0C02C8FF970009D057C /* DriverLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673D0BF2C8FF970009D057C /* DriverLoadingView.swift */; };
+		5673D0C22C8FF972009D057C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5673D0C12C8FF972009D057C /* Assets.xcassets */; };
+		5673D0C52C8FF972009D057C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5673D0C42C8FF972009D057C /* Preview Assets.xcassets */; };
+		5673D0D02C8FF972009D057C /* NXUSBDRIVERAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673D0CF2C8FF972009D057C /* NXUSBDRIVERAPPTests.swift */; };
+		5673D0DA2C8FF972009D057C /* NXUSBDRIVERAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673D0D92C8FF972009D057C /* NXUSBDRIVERAPPUITests.swift */; };
+		5673D0DC2C8FF972009D057C /* NXUSBDRIVERAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673D0DB2C8FF972009D057C /* NXUSBDRIVERAPPUITestsLaunchTests.swift */; };
+		5673D0E92C8FF9CC009D057C /* DriverLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673D0E82C8FF9CC009D057C /* DriverLoadingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5673D0CC2C8FF972009D057C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5673D0B22C8FF970009D057C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5673D0B92C8FF970009D057C;
+			remoteInfo = NXUSBDRIVERAPP;
+		};
+		5673D0D62C8FF972009D057C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5673D0B22C8FF970009D057C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5673D0B92C8FF970009D057C;
+			remoteInfo = NXUSBDRIVERAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5673D0BA2C8FF970009D057C /* NXUSBDRIVERAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXUSBDRIVERAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5673D0BD2C8FF970009D057C /* NXUSBDRIVERAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NXUSBDRIVERAPPApp.swift; sourceTree = "<group>"; };
+		5673D0BF2C8FF970009D057C /* DriverLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverLoadingView.swift; sourceTree = "<group>"; };
+		5673D0C12C8FF972009D057C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5673D0C42C8FF972009D057C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5673D0C62C8FF972009D057C /* NXUSBDRIVERAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NXUSBDRIVERAPP.entitlements; sourceTree = "<group>"; };
+		5673D0CB2C8FF972009D057C /* NXUSBDRIVERAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXUSBDRIVERAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5673D0CF2C8FF972009D057C /* NXUSBDRIVERAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NXUSBDRIVERAPPTests.swift; sourceTree = "<group>"; };
+		5673D0D52C8FF972009D057C /* NXUSBDRIVERAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXUSBDRIVERAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5673D0D92C8FF972009D057C /* NXUSBDRIVERAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NXUSBDRIVERAPPUITests.swift; sourceTree = "<group>"; };
+		5673D0DB2C8FF972009D057C /* NXUSBDRIVERAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NXUSBDRIVERAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5673D0E82C8FF9CC009D057C /* DriverLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverLoadingViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5673D0B72C8FF970009D057C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673D0C82C8FF972009D057C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673D0D22C8FF972009D057C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5673D0B12C8FF970009D057C = {
+			isa = PBXGroup;
+			children = (
+				5673D0BC2C8FF970009D057C /* NXUSBDRIVERAPP */,
+				5673D0CE2C8FF972009D057C /* NXUSBDRIVERAPPTests */,
+				5673D0D82C8FF972009D057C /* NXUSBDRIVERAPPUITests */,
+				5673D0BB2C8FF970009D057C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5673D0BB2C8FF970009D057C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5673D0BA2C8FF970009D057C /* NXUSBDRIVERAPP.app */,
+				5673D0CB2C8FF972009D057C /* NXUSBDRIVERAPPTests.xctest */,
+				5673D0D52C8FF972009D057C /* NXUSBDRIVERAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5673D0BC2C8FF970009D057C /* NXUSBDRIVERAPP */ = {
+			isa = PBXGroup;
+			children = (
+				5673D0BD2C8FF970009D057C /* NXUSBDRIVERAPPApp.swift */,
+				5673D0BF2C8FF970009D057C /* DriverLoadingView.swift */,
+				5673D0C12C8FF972009D057C /* Assets.xcassets */,
+				5673D0C62C8FF972009D057C /* NXUSBDRIVERAPP.entitlements */,
+				5673D0C32C8FF972009D057C /* Preview Content */,
+				5673D0E82C8FF9CC009D057C /* DriverLoadingViewModel.swift */,
+			);
+			path = NXUSBDRIVERAPP;
+			sourceTree = "<group>";
+		};
+		5673D0C32C8FF972009D057C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5673D0C42C8FF972009D057C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5673D0CE2C8FF972009D057C /* NXUSBDRIVERAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				5673D0CF2C8FF972009D057C /* NXUSBDRIVERAPPTests.swift */,
+			);
+			path = NXUSBDRIVERAPPTests;
+			sourceTree = "<group>";
+		};
+		5673D0D82C8FF972009D057C /* NXUSBDRIVERAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5673D0D92C8FF972009D057C /* NXUSBDRIVERAPPUITests.swift */,
+				5673D0DB2C8FF972009D057C /* NXUSBDRIVERAPPUITestsLaunchTests.swift */,
+			);
+			path = NXUSBDRIVERAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5673D0B92C8FF970009D057C /* NXUSBDRIVERAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5673D0DF2C8FF972009D057C /* Build configuration list for PBXNativeTarget "NXUSBDRIVERAPP" */;
+			buildPhases = (
+				5673D0B62C8FF970009D057C /* Sources */,
+				5673D0B72C8FF970009D057C /* Frameworks */,
+				5673D0B82C8FF970009D057C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXUSBDRIVERAPP;
+			productName = NXUSBDRIVERAPP;
+			productReference = 5673D0BA2C8FF970009D057C /* NXUSBDRIVERAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5673D0CA2C8FF972009D057C /* NXUSBDRIVERAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5673D0E22C8FF972009D057C /* Build configuration list for PBXNativeTarget "NXUSBDRIVERAPPTests" */;
+			buildPhases = (
+				5673D0C72C8FF972009D057C /* Sources */,
+				5673D0C82C8FF972009D057C /* Frameworks */,
+				5673D0C92C8FF972009D057C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5673D0CD2C8FF972009D057C /* PBXTargetDependency */,
+			);
+			name = NXUSBDRIVERAPPTests;
+			productName = NXUSBDRIVERAPPTests;
+			productReference = 5673D0CB2C8FF972009D057C /* NXUSBDRIVERAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5673D0D42C8FF972009D057C /* NXUSBDRIVERAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5673D0E52C8FF972009D057C /* Build configuration list for PBXNativeTarget "NXUSBDRIVERAPPUITests" */;
+			buildPhases = (
+				5673D0D12C8FF972009D057C /* Sources */,
+				5673D0D22C8FF972009D057C /* Frameworks */,
+				5673D0D32C8FF972009D057C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5673D0D72C8FF972009D057C /* PBXTargetDependency */,
+			);
+			name = NXUSBDRIVERAPPUITests;
+			productName = NXUSBDRIVERAPPUITests;
+			productReference = 5673D0D52C8FF972009D057C /* NXUSBDRIVERAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5673D0B22C8FF970009D057C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5673D0B92C8FF970009D057C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5673D0CA2C8FF972009D057C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5673D0B92C8FF970009D057C;
+					};
+					5673D0D42C8FF972009D057C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5673D0B92C8FF970009D057C;
+					};
+				};
+			};
+			buildConfigurationList = 5673D0B52C8FF970009D057C /* Build configuration list for PBXProject "NXUSBDRIVERAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5673D0B12C8FF970009D057C;
+			productRefGroup = 5673D0BB2C8FF970009D057C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5673D0B92C8FF970009D057C /* NXUSBDRIVERAPP */,
+				5673D0CA2C8FF972009D057C /* NXUSBDRIVERAPPTests */,
+				5673D0D42C8FF972009D057C /* NXUSBDRIVERAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5673D0B82C8FF970009D057C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673D0C52C8FF972009D057C /* Preview Assets.xcassets in Resources */,
+				5673D0C22C8FF972009D057C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673D0C92C8FF972009D057C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673D0D32C8FF972009D057C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5673D0B62C8FF970009D057C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673D0C02C8FF970009D057C /* DriverLoadingView.swift in Sources */,
+				5673D0BE2C8FF970009D057C /* NXUSBDRIVERAPPApp.swift in Sources */,
+				5673D0E92C8FF9CC009D057C /* DriverLoadingViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673D0C72C8FF972009D057C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673D0D02C8FF972009D057C /* NXUSBDRIVERAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673D0D12C8FF972009D057C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673D0DA2C8FF972009D057C /* NXUSBDRIVERAPPUITests.swift in Sources */,
+				5673D0DC2C8FF972009D057C /* NXUSBDRIVERAPPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5673D0CD2C8FF972009D057C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5673D0B92C8FF970009D057C /* NXUSBDRIVERAPP */;
+			targetProxy = 5673D0CC2C8FF972009D057C /* PBXContainerItemProxy */;
+		};
+		5673D0D72C8FF972009D057C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5673D0B92C8FF970009D057C /* NXUSBDRIVERAPP */;
+			targetProxy = 5673D0D62C8FF972009D057C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5673D0DD2C8FF972009D057C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5673D0DE2C8FF972009D057C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5673D0E02C8FF972009D057C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NXUSBDRIVERAPP/NXUSBDRIVERAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NXUSBDRIVERAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FRW5WB8RS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naxiang.NXUSBDRIVERAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5673D0E12C8FF972009D057C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NXUSBDRIVERAPP/NXUSBDRIVERAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NXUSBDRIVERAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FRW5WB8RS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naxiang.NXUSBDRIVERAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5673D0E32C8FF972009D057C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRW5WB8RS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naxiang.NXUSBDRIVERAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXUSBDRIVERAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NXUSBDRIVERAPP";
+			};
+			name = Debug;
+		};
+		5673D0E42C8FF972009D057C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRW5WB8RS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naxiang.NXUSBDRIVERAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXUSBDRIVERAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NXUSBDRIVERAPP";
+			};
+			name = Release;
+		};
+		5673D0E62C8FF972009D057C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRW5WB8RS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naxiang.NXUSBDRIVERAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NXUSBDRIVERAPP;
+			};
+			name = Debug;
+		};
+		5673D0E72C8FF972009D057C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRW5WB8RS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naxiang.NXUSBDRIVERAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NXUSBDRIVERAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5673D0B52C8FF970009D057C /* Build configuration list for PBXProject "NXUSBDRIVERAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5673D0DD2C8FF972009D057C /* Debug */,
+				5673D0DE2C8FF972009D057C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5673D0DF2C8FF972009D057C /* Build configuration list for PBXNativeTarget "NXUSBDRIVERAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5673D0E02C8FF972009D057C /* Debug */,
+				5673D0E12C8FF972009D057C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5673D0E22C8FF972009D057C /* Build configuration list for PBXNativeTarget "NXUSBDRIVERAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5673D0E32C8FF972009D057C /* Debug */,
+				5673D0E42C8FF972009D057C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5673D0E52C8FF972009D057C /* Build configuration list for PBXNativeTarget "NXUSBDRIVERAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5673D0E62C8FF972009D057C /* Debug */,
+				5673D0E72C8FF972009D057C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5673D0B22C8FF970009D057C /* Project object */;
+}
